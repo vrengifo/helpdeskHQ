@@ -1,0 +1,51 @@
+<STYLE>
+a:hover { color: #000000; text-decoration: underline }
+.tabtxtAdminselected { color: #000000; font-weight: 600 }
+a.tabtxt { font-family: Tahoma; font-size: 12px; color: #ffffff; text-decoration: none }
+a.tabtxt:hover { font-family: Tahoma; font-size: 12px; color: #CC0000; text-decoration: underline }
+a.tabtxtselected { color: #000000; text-decoration: none }
+a.tabtxtselected:hover { color: #000000; text-decoration: underline }
+td { font-family: Tahoma; font-size: 12px; }
+div { font-family: Tahoma; font-size: 12px; }
+.tabAdminselected {  font-weight: 600; background-color: #EEEEEE; border-color: #075685 #075685 #EEEEEE #075685; border-style: solid; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px}
+.tabselected { font-weight: 600; background-color: #FFFFFF; border-color: #075685 #075685 #FFFFFF #075685; border-style: solid; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px}
+.tab { background-color: #90A8C8; border: #075685; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 2px; border-left-width: 1px}
+.empty { border: #075685; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 2px; border-left-width: 0px}
+.workarea { background-color: #FFFFFF; border: #075685; border-style: solid; border-top-width: 0px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; }
+.workareaAdmin { background-color: #EEEEEE;  border: #075685; border-style: solid; border-top-width: 0px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px}
+.listtable { background-color: #FFFFFF; border: #CCCCCC 0px solid;}
+.listcell1 { background-color: #FFFFFF; vertical-align: top; border: #CCCCCC solid; border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 0px; }
+.listcell { background-color: #FFFFFF; vertical-align: top; border: #CCCCCC solid; border-left-width: 0px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 0px; }
+.listblank { background-color: #FFFFFF; vertical-align: top; border: #CCCCCC solid; border-left-width: 0px; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 0px; }
+.detailtable { background-color: #CCCCCC; border: #CCCCCC none; }
+.detaildata { background-color: #FFFFFF; vertical-align: top; border: #CCCCCC solid; border-left-width: 0px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 0px; }
+.detaillabel {background-color: #EEEEEE; width: 10%; vertical-align: top; border: #CCCCCC solid; border-left-width: 1px; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 0px;}
+.detailblank {background-color: #FFFFFF; vertical-align: top; border: #CCCCCC solid; border-left-width: 0px; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 0px; }
+.searchbox { width: 80px; font-size: 10px; height: 20px; border: solid #000000 1px; }
+.searchbutton { width: 20px; font-size: 9px; height: 20px;  border: #000000; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 0px }
+.topSelector { background-color: #90A8C8; color: #ffffff;}
+.menu  { font-family: Tahoma; font-size: 12px; color:#ffffff;  height:30px;  background:#90A8C8; border: 1px solid #90A8C8; padding-left: 2px; padding-right: 2px; padding-top: 2px; cursor: hand; text-align:center;  }
+.title { font-family: Tahoma; font-size: 13px; color: #FFFFFF; background-color:#94ACC8; border: 1px solid #94ACC8; cursor: hand; padding-top:2px; padding-bottom:2px; padding-right:4px; }
+.LoginName { font-family: Tahoma; font-size: 12px; color:#ffffff; font-weight: 400 }
+.ButtonOne { font-family: Tahoma; font-size: 12px; background-color: #EEEEEE; border: solid 1px; border-color: #000000; }
+.ButtonTwo { font-family: Tahoma; font-size: 12px; background-color: #EEEEEE; border: solid 1px; border-color: #CCCCCC; }
+.ButtonThree { font-family: Tahoma; font-size: 12px; background-color: #EEEEEE; border: solid 1px; border-width: 1px; border-color: #CCCCCC}
+.ButtonTop { font-family: Tahoma; font-size: 10px; background-color: #075685; border: solid 1px; border-color: #075685; color: #ffffff; cursor: hand; padding-left: 2px; padding-right: 2px; }
+.buttonbar { background-color: #E2E2E2; }
+tt {font-family: Tahoma; font-size: 13px; }
+textarea {font-family: Tahoma; font-size: 13px; }
+body { font-family: Tahoma; font-size: 12px; }
+
+.homebox {  border: solid #075685 1px; }
+.titletable { background-color: #94ACC8; height=28; }
+.tableinside {  background-color: #FFFFFF; }
+
+.t { position:absolute;border: 1px ridge;border-right-color:#999999;border-bottom-color:#999999; }
+.o { position:absolute;border: 1px ridge;border-right-color:#999999;border-bottom-color:#999999;left:0;width:100%;height:28; }
+.banner { position:absolute;border: 1px solid #000000;left:0;width:100%;height:28;background-color:#EEEEEE; }
+.b { position:absolute;height:31;left:0;background:#ffffff;border: 1px solid #CCCCCC;border-right-color:#999999; }
+.h { position:absolute;border: 1px ridge;border-right-color:#999999;border-bottom-color:#999999;left:0;width:40;height:31;}
+.table_hd { border-color: #DCDCDC #828282 #828282 #EEEEEE; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-color: #CCCCCC; cursor: default;}
+.tabtxt { color: #000000 }
+
+</STYLE>
