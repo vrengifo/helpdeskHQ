@@ -1,0 +1,1 @@
+ALTER TABLE `helpdeskhq1`.`ticket` ADD COLUMN `tic_fechahoramaxencuesta` DATETIME AFTER `tic_fechahorafin`;
